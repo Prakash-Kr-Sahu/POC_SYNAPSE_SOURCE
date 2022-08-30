@@ -5,7 +5,7 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": ""
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=az400sqlser.database.windows.net;Initial Catalog=az400sqldb"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
