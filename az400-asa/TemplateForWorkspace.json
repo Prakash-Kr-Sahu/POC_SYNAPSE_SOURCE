@@ -25,7 +25,7 @@
 		},
 		"LS_KV_properties_typeProperties_baseUrl": {
 			"type": "string",
-			"defaultValue": "https://az400-kv.vault.azure.net/"
+			"defaultValue": "@{linkedService().p_kv_url}"
 		},
 		"LS_SOURCE_ADOBE_properties_typeProperties_url": {
 			"type": "string",
@@ -591,6 +591,12 @@
 			"type": "Microsoft.Synapse/workspaces/linkedServices",
 			"apiVersion": "2019-06-01-preview",
 			"properties": {
+				"parameters": {
+					"p_kv_url": {
+						"type": "string",
+						"defaultValue": "https://az400-kv.vault.azure.net/"
+					}
+				},
 				"annotations": [],
 				"type": "AzureKeyVault",
 				"typeProperties": {

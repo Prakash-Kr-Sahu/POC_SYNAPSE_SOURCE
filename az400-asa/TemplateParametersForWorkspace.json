@@ -18,7 +18,7 @@
 			"value": "https://az400curate.dfs.core.windows.net/"
 		},
 		"LS_KV_properties_typeProperties_baseUrl": {
-			"value": "https://az400-kv.vault.azure.net/"
+			"value": "@{linkedService().p_kv_url}"
 		},
 		"LS_SOURCE_ADOBE_properties_typeProperties_url": {
 			"value": "https://az400adobegen2.dfs.core.windows.net/"
