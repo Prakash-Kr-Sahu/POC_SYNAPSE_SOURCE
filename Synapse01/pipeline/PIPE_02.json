@@ -1,0 +1,19 @@
+{
+	"name": "PIPE_02",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-08-30T11:37:15Z"
+	},
+	"type": "Microsoft.Synapse/workspaces/pipelines"
+}
