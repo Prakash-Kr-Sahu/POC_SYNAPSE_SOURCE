@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "az400-asa"
+		},
+		"LS_SQL_DB_connectionString": {
+			"value": ""
+		},
+		"az400-asa-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"LS_ACQN_properties_typeProperties_url": {
+			"value": "https://az400acqn.dfs.core.windows.net/"
+		},
+		"LS_CURATE_properties_typeProperties_url": {
+			"value": "https://az400curate.dfs.core.windows.net/"
+		},
+		"LS_KV_properties_typeProperties_baseUrl": {
+			"value": "https://az400-kv.vault.azure.net/"
+		},
+		"LS_SOURCE_ADOBE_properties_typeProperties_url": {
+			"value": "https://az400adobegen2.dfs.core.windows.net/"
+		},
+		"az400-asa-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://az400sagen201.dfs.core.windows.net"
+		}
+	}
+}
